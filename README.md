@@ -50,3 +50,22 @@ The dataset contains several features related to customer demographics, account 
 4. **Install the required dependencies**:
    ```bash
     pip install -r requirements.txt
+
+## How to Run
+
+### Train the model (if needed):
+
+- Run the Jupyter Notebook to preprocess the dataset and train the machine learning model.
+- The trained model will be saved as `churn_model.pkl`.
+- And the encoders and standarization will be saved as `one_hot_geo.pkl` , `gender_encoder.pkl` , `scaler.pkl` .
+
+### Run the Streamlit app locally:
+
+Once you have your model and the necessary libraries installed, you can launch the app:
+- Make sure that place the all the pickle files and streamlit_app.py in one folder to avoid error
+
+```bash
+streamlit run streamlit_app.py
+```
+
+After running the above command, you will be provided with a local URL (usually http://localhost:8501). Open this URL in your browser to interact with the app.
