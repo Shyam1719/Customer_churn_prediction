@@ -2,17 +2,6 @@
 
 This project predicts whether a customer is likely to churn (leave the bank) based on various features like age, geography, balance, and activity. The model is built using a machine learning classifier and is deployed as a web application using Streamlit.
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Dataset](#dataset)
-3. [Installation](#installation)
-4. [Project Structure](#project-structure)
-5. [How to Run](#how-to-run)
-6. [Deployment](#deployment)
-7. [Technologies Used](#technologies-used)
-8. [Model Details](#model-details)
-9. [Acknowledgments](#acknowledgments)
-
 ## Project Overview
 The goal of this project is to build a machine learning model to predict customer churn for a bank. Customer churn prediction helps the bank to identify at-risk customers and take measures to retain them.
 
